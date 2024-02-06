@@ -9,9 +9,9 @@ browser.get('https://eprisons.nic.in/TamilNadu/Secure/Login.aspx')
 
 # find username/email field and send the username itself to the input field
 
-browser.find_element(By.ID, "txtUserid").send_keys("sppuzhal1")
+browser.find_element(By.ID, "txtUserid").send_keys("")
 # find password input field and insert password as well
-browser.find_element(By.ID, "txtPassword").send_keys("sppuzhal11")
+browser.find_element(By.ID, "txtPassword").send_keys("")
 browser.find_element(By.ID, "btnLogin").click()
 browser.find_element(By.PARTIAL_LINK_TEXT, "Administration").click()
 time.sleep(0.5)
